@@ -1,0 +1,42 @@
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .conversation:hover {
+    background-color: rgb(245, 243, 243);
+  }
+  
+  .conversationImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .conversationName {
+    font-weight: 500;
+  }
+  .menu_edit_conv:hover{
+    background-color:#D3D3D3;
+  }
+  .conversation:hover .menu_edit_conv{
+    display:block;
+  }
+  .menu_edit_conv{
+    color:red;
+    width:50px;
+    height:30px;
+    text-align:center;
+    display:none;
+    border-radius:3px;
+  }
+  @media screen and (max-width: 768px) {
+    .conversationName {
+      display: none;
+    }
+  }
